@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Add a background color to the body */
+}
+
+.slot-machine-frame { /* New frame container */
+    width: 440px; /* Adjust for 5 reels of 80px each + margins */
+    height: 240px; 
+    overflow: hidden;
+    border: 10px solid #d4af37; /* Gold border for the frame */
+    border-radius: 15px; /* Rounded corners for the frame */
+}
+
+.slot-machine {
+    display: flex;
+    background-color: #222; /* Dark background inside the frame */
+}
+
+.reel {
+    width: 80px;
+    height: 240px;
+    overflow: hidden;
+    margin: 0 10px;
+}
+
+.icon {
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 40px;
+}
+
+/* Animation */
+@keyframes spin {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-400px); }
+}
+
+.reel {
+    animation: spin 3s linear infinite;
+}
