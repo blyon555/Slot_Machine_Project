@@ -10,8 +10,8 @@ body {
     width: 440px; /* Adjust for 5 reels of 80px each + margins */
     height: 240px; 
     overflow: hidden;
-    border: 10px solid #d4af37; /* Gold border for the frame */
-    border-radius: 15px; /* Rounded corners for the frame */
+    border: 7px solid #d4af37; /* Gold border for the frame */
+    border-radius: 20px; /* Rounded corners for the frame */
 }
 
 .slot-machine {
