@@ -22,7 +22,6 @@ body {
 .reel {
     width: 80px;
     height: 240px;
-    
     margin: 0 10px;
 }
 
@@ -37,9 +36,9 @@ body {
 /* Animation */
 @keyframes spin {
     0% { transform: translateY(0); }
-    100% { transform: translateY(-400px); }
+    100% { transform: translateY(-500px); }
 }
 
 .reel {
-    animation: spin 3s linear infinite;
+    animation: spin 4s linear infinite;
 }
